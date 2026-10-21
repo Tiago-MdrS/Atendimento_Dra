@@ -1,3 +1,5 @@
+const MENSAGEM_WHATS = "Olá, Dra. Christiani! Gostaria de agendar uma consulta.";
+
 export const DATA = {
   nome: "Dra. Christiani Maria Pedrosa Moreira Mendes",
   curto: "Dra. Christiani Moreira",
@@ -6,7 +8,8 @@ export const DATA = {
   fone: "(86) 3221-5968",
   foneLink: "tel:+558632215968",
   whats: "(86) 9 8858-5968",
-  whatsLink: "https://wa.me/5586988585968",
+  whatsLink:
+    "https://wa.me/5586988585968?text=" + encodeURIComponent(MENSAGEM_WHATS),
   insta: "@drachristianimoreira",
   instaLink: "https://www.instagram.com/drachristianimoreira",
   clinica: "Clínica Digest",
